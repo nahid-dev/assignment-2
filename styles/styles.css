@@ -7,8 +7,25 @@ body{
 }
 /* ========= Re-usable style component ==========*/
 .container{
-    width: 1140px;
+    width: 1440px;
     margin: 0 auto;
+}
+.primary-pera{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.primary-btn{
+    background-color: #FF900E;
+    padding: 20px 25px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
 }
 /* ========= Start Header Section ==========*/
 header{
@@ -18,6 +35,7 @@ header nav{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    padding: 30px 0;
 }
 header nav .brand-logo a{
     text-decoration: none;
@@ -40,4 +58,69 @@ header nav .nav-item ul li a {
 	color: #424242;
 	line-height: 26px;
 	padding: 8px 30px;
+}
+/* ========= Start Header Text Content ==========*/
+.header-content-part{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 70px;
+}
+.text-content{
+    text-align: center;
+}
+.text-content h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    width: 90%;
+}
+.text-content .header-des{
+    padding-bottom: 30px;
+}
+.header-image-part{
+    padding-bottom: 30px;
+}
+.header-image-part img{
+    width: 100%;
+}
+/* ========= Start Features Section ==========*/
+#features{
+    padding: 100px 0;
+}
+.features-content {
+	display: flex;
+	align-items: center;
+	gap: 100px;
+    padding: 0 50px;
+}
+.features-content .features-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.features-content .features-img img{
+    width: 342px;
+    height: 342px;
+}
+.features-text-area h2{
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 20px;
+}
+.features-text-area h2 .gray-light{
+    color: #727272;
+    font-weight: 500;
+}
+.features-text-area h2 .bold{
+    color:  #131313;
+    font-weight: 700;
+}
+.features-text-area h2 .colored{
+    color: #FF900E;
+    font-weight: 700;
+}
+.features-text-area p{
+    padding-bottom: 30px;
 }
