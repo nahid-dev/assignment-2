@@ -1,0 +1,43 @@
+/* ========= Mian Google fonts ==========*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* ========= Re-usable style component ==========*/
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* ========= Start Header Section ==========*/
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
+header nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+header nav .brand-logo a{
+    text-decoration: none;
+    font-size: 45px;
+    color: #131313;
+    font-weight: 700;
+    line-height: 53px;
+}
+header nav .nav-item{
+    text-align: right;
+}
+header nav .nav-item ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+header nav .nav-item ul li a {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 18px;
+	color: #424242;
+	line-height: 26px;
+	padding: 8px 30px;
+}
