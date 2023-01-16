@@ -15,7 +15,7 @@ body{
 	font-size: 45px;
 	line-height: 53px;
 	color: #131313;
-	margin: 0 0 25px 0;
+	margin: 0 0 20px 0;
 }
 .primary-pera{
     font-weight: 400;
@@ -132,6 +132,39 @@ header nav .nav-item ul li a {
 .features-text-area p{
     padding-bottom: 30px;
 }
+/* ========= Start Card Section ==========*/
+#card{
+    margin: 50px 0;
+    padding-bottom: 50px;
+}
+.card-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.card-content{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.card-content .card-item{
+    text-align: center;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card-content .card-item img {
+	width: 300px;
+	height: auto;
+    margin-bottom: 10px;
+}
+.card-content .card-item h5{
+    margin: 0 0 20px 0;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 23px;
+    color: #131313;
+}
 /* ========= Start Ten-year Section ==========*/
 #ten-year{
     margin-bottom: 50px;
@@ -226,10 +259,11 @@ header nav .nav-item ul li a {
     padding: 50px 36px;
     text-align: center;
     cursor: pointer;
-    transition: .3s ease-in-out;
+    transition: .4s ease-in-out;
 }
 .facts-content .facts-item:hover{
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    transform: translateY(-20px);
 }
 .facts-content .facts-item > p{
     margin: 0;
@@ -281,4 +315,8 @@ header nav .nav-item ul li a {
     line-height: 23px;
     color: #424242;
     margin: 0;
+}
+/* Start Media Query Style Use BS Breakpoint*/
+@media screen and (max-width: 576px){
+    
 }
